@@ -27,6 +27,7 @@ It collects real-time data from sensors, analyzes system conditions using Machin
 * 🌐 User-friendly dashboard (Hindi for rural users)
 
 ---
+![ezgif com-gif-to-mp4-converter](https://github.com/user-attachments/assets/0557fdca-69df-46ee-b015-44d6714f713a)
 
 ## 🧠 System Architecture
 
