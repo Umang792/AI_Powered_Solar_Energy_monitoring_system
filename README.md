@@ -1,214 +1,97 @@
-# 🌞 AI-Powered Renewable Energy Monitoring System for Microgrids
-
-## 📌 Overview
-
-This project is an **AI + IoT-based smart energy monitoring system** designed for rural microgrids.
-It collects real-time data from sensors, analyzes system conditions using Machine Learning, and provides **actionable insights in a simple dashboard (Hindi/English)** for villagers.
-
----
-
-## 🚀 Features
-
-* 🔌 Real-time monitoring of voltage, current, and power
-* 🌞 Solar energy generation tracking
-* 🔋 Battery health monitoring
-* 🌡 Environmental sensing (temperature, humidity, light)
-* 📳 Panel condition detection using vibration (dust/tampering)
-* 🤖 AI-based fault detection:
-
-  * Normal
-  * Dust on panel
-  * Overload
-  * Theft detection
-  * Sensor fault
-* 💡 Smart energy usage suggestions
-* ⚠ Real-time alerts
-* 💰 Monthly savings and CO₂ reduction estimation
-* 🌐 User-friendly dashboard (Hindi for rural users)
-
----
-![ezgif com-gif-to-mp4-converter](https://github.com/user-attachments/assets/0557fdca-69df-46ee-b015-44d6714f713a)
-
-## 🧠 System Architecture
-
-```
-Sensors → ESP32 → Backend (Node.js) → ML Model (Python) → Dashboard
-```
+<div align="center">
+  <img src="https://img.icons8.com/fluency/96/solar-panel.png" alt="Solar Panel Icon" width="80"/>
+  <h1>🌱 MicroGrid Guardian</h1>
+  <h3>AI-Powered Renewable Energy Monitoring System for Smart Villages</h3>
+  <p><i>Democratizing energy intelligence for off-grid communities</i></p>
+  
+  ![Python](https://img.shields.io/badge/Python-3.9+-blue?logo=python)
+  ![Flask](https://img.shields.io/badge/Flask-2.0+-black?logo=flask)
+  ![React](https://img.shields.io/badge/React-18.0+-61DAFB?logo=react)
+  ![Tailwind](https://img.shields.io/badge/Tailwind-3.0+-06B6D4?logo=tailwindcss)
+  ![Scikit Learn](https://img.shields.io/badge/Scikit--Learn-1.0+-F7931E?logo=scikit-learn)
+  ![ESP32](https://img.shields.io/badge/ESP32-Enabled-735DF0?logo=espressif)
+  ![MongoDB](https://img.shields.io/badge/MongoDB-4.4+-47A248?logo=mongodb)
+  ![TypeScript](https://img.shields.io/badge/TypeScript-5.0+-3178C6?logo=typescript)
+</div>
 
 ---
 
-## 🧰 Hardware Components
-
-| Component         | Description                          |
-| ----------------- | ------------------------------------ |
-| ESP32 DevKit      | Microcontroller for data collection  |
-| INA219            | Current & voltage sensor             |
-| DS18B20           | Solar panel temperature sensor       |
-| DHT22             | Temperature & humidity sensor        |
-| BH1750            | Light intensity sensor               |
-| MPU6050           | Vibration detection (dust/tampering) |
-| Solar Panel (10W) | Energy generation                    |
-| 12V Battery       | Energy storage                       |
-| Charge Controller | Battery regulation                   |
-| Relay Module      | Load control                         |
-
----
-
-## 📊 Dataset Features
-
-### 🔹 Input Features
-
-* voltage_v
-* current_a
-* power_w
-* battery_pct
-* power_flow
-* light_lux
-* temperature_c
-* humidity_pct
-* mpu_x, mpu_y, mpu_z
-
-### 🔹 Derived Features
-
-* efficiency = power / light
-* vibration_score = |x| + |y| + |z|
-* abnormal_current
-
-### 🔹 Output Labels
-
-* status (normal, dust, overload, theft, fault)
+## 📋 Table of Contents
+- [Project Vision](#-project-vision)
+- [Key Features](#-key-features)
+- [Hardware Bill of Materials](#-hardware-bill-of-materials)
+- [AI/ML Models](#-aiml-models)
+- [System Workflow](#-system-workflow)
+- [Quick Start](#-quick-start)
+- [API Endpoints](#-api-endpoints)
+- [Project Structure](#-project-structure)
+- [Dashboard Features](#-dashboard-features)
+- [Future Enhancements](#-future-enhancements)
+- [Contributors](#-contributors)
+- [License](#-license)
 
 ---
 
-## 🤖 Machine Learning Model
+## 🏞️ Project Vision
 
-* Model Used: **Random Forest Classifier**
-* Task: Classification (System Status Prediction)
-* Accuracy: ~90% (depending on dataset)
+Bringing **Solar Intelligence** to rural households. This system combines IoT sensors, edge computing, and cloud-based AI to monitor solar microgrids, predict generation, detect faults, and optimize power distribution—all through an intuitive dashboard. Designed for villagers, built with precision.
 
----
-
-## ⚙️ Installation & Setup
-
-### 1️⃣ Clone Repository
-
-```
-git clone https://github.com/your-username/your-repo.git
-cd your-repo
-```
+| 🖥️ Dashboard Preview | 📊 Tech Stack |
+| :---: | :---: |
+| ![Dashboard Screenshot](Screenshot%202026-03-27%20at%206.15.34%E2%80%AFPM.png) | ![Tech Stack](image.png) |
 
 ---
 
-### 2️⃣ Install Dependencies
+## ✨ Key Features
 
-#### Python (ML Model)
+### 1. Real-Time Monitoring
+- **Energy Metrics**: Instant Power (kW), Solar Yield (kWh), Panel Temperature, System Health
+- **Environmental**: Humidity, Wind Speed, Irradiance (W/m²), Visibility
+- **Live Weather Data**: Integrated with OpenWeatherMap API
 
-```
-pip install pandas scikit-learn joblib
-```
+### 2. AI-Powered Intelligence
+- **Power Prediction**: `Random Forest` model forecasts solar output using irradiation & temperature
+- **Anomaly Detection**: `Isolation Forest` identifies:
+  - **Fault Detection**: Sensor malfunction, dust accumulation, shading issues
+  - **Theft/Tilt Detection**: MPU6050 data flags physical tampering or wind misalignment
+  - **Performance Degradation**: -41.8% production drop alerts
+- **Smart Suggestions**: Best times to run heavy appliances based on predicted generation
 
-#### Node.js Backend
+### 3. Smart Load Management
+- **Fair Distribution**: 2-channel relay automates power allocation based on battery percentage and priority (Fan → TV → Water Pump)
+- **Timing Permissions**: Schedule high-consumption devices during peak solar hours (12:00 PM – 3:00 PM)
+- **Critical Alerts**: Immediate notification for output degradation
 
-```
-npm install
-```
+### 4. Weather Integration
+- Live weather data via **OpenWeatherMap API**
+- Solar impact assessment (Moderate/High/Low)
+- Humidity, wind speed, visibility tracking
+- Adjust predictions based on real-time weather conditions
 
----
-
-### 3️⃣ Run Model Training
-
-```
-python train_model.py
-```
-
----
-
-### 4️⃣ Start Backend Server
-
-```
-node server.js
-```
-
----
-
-## 📡 API Workflow
-
-1. ESP32 sends sensor data
-2. Backend calculates derived features
-3. Data sent to ML model
-4. Model predicts system status
-5. Backend generates:
-
-   * Suggestions
-   * Alerts
-   * Dashboard data
+### 5. Energy Analytics
+- CO₂ savings tracking (kg)
+- Efficiency percentage calculation
+- Historical performance data
+- Tomorrow's forecast based on weather & historical patterns
 
 ---
 
-## 📊 Example Output
+## 🛠️ Hardware Bill of Materials
 
-```
-🌞 सोलर ऊर्जा डैशबोर्ड
+| Component | Quantity | Approx Cost (₹) | Purpose |
+| :--- | :---: | :---: | :--- |
+| **ESP32 DevKit** | 1 | 500 | Central microcontroller with WiFi/Bluetooth |
+| **INA219** | 1 | 700 | High-side current/power measurement (I²C) |
+| **Voltage Divider Parts** | — | 150 | Resistors/caps for voltage sensing |
+| **DS18B20** | 1 | 200 | Waterproof temperature probe for panel temp |
+| **DHT22** | 1 | 350 | Ambient temperature & humidity |
+| **BH1750** | 1 | 250 | Light intensity / Irradiance sensor |
+| **MPU6050** | 1 | 250 | 6-axis accelerometer & gyroscope (tilt detection) |
+| **10W Solar Panel** | 1 | 800 | Energy source for node |
+| **12V 7Ah Battery** | 1 | 2,200 | Energy storage for demo |
+| **10A PWM Charge Controller** | 1 | 700 | Regulates battery charging from solar |
+| **2-Channel Relay Module** | 1 | 300 | Load control (Fan, TV, Water Pump) |
+| **Buzzer & LEDs** | 1 set | 100 | Visual/audio alerts |
+| **Total** | | **~₹6,250** | |
 
-Status: 🟢 सिस्टम ठीक है
-Battery: 🔋 72%
-
-Solar Produced: 5.6 kWh
-Home Usage: 4.1 kWh
-
-💡 सुझाव:
-आप वॉशिंग मशीन चला सकते हैं
-
-⚠ अलर्ट:
-पैनल पर धूल हो सकती है
-
-💰 बचत:
-₹1200 | 22kg CO₂
-```
-
----
-
-## 🧠 Key Concepts Used
-
-* IoT (ESP32 + Sensors)
-* Machine Learning (Random Forest)
-* Feature Engineering
-* Real-time Data Processing
-* Smart Recommendation System
-
----
-
-## 🌍 Impact
-
-* Helps villagers **save electricity cost**
-* Improves **solar panel efficiency**
-* Detects **faults and energy theft**
-* Promotes **sustainable energy usage**
-
----
-
-## 🔮 Future Improvements
-
-* 📱 Mobile App Integration
-* 🌐 Cloud Dashboard
-* 🔊 Voice Assistant (Hindi)
-* 📊 Advanced AI predictions (energy forecasting)
-
----
-
-## 👨‍💻 Author
-
-**Your Name**
-B.Tech Student | AI + IoT Enthusiast
-
----
-
-## ⭐ Contribute
-
-Contributions are welcome! Feel free to fork and improve the project.
-
----
-
-## 📜 License
-
-This project is open-source and available under the MIT License.
+### Connection Diagram
