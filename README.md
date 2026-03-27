@@ -95,7 +95,8 @@ Bringing **Solar Intelligence** to rural households. This system combines IoT se
 | Fault Detector | Isolation Forest | Detect anomalies |
 | Tilt Monitor | Isolation Forest | Detect theft/misalignment |
 
-### Sample Input (Simulation)
+### 🧪 Sample Input (Simulation)
+
 ```python
 ac_power = random.randint(200, 1500)
 battery = random.randint(50, 90)
@@ -105,20 +106,46 @@ temp_ambient = random.randint(20, 40)
 x_axis = random.uniform(-180, 180)
 y_axis = random.uniform(-180, 180)
 z_axis = random.uniform(-180, 180)
-⚙️ System Workflow
+```
+
+---
+
+## ⚙️ System Workflow
+
+```
 HARDWARE → ESP32 → Flask API → ML Models → React Dashboard → Relay Control
-🚀 Quick Start
+```
+
+---
+
+## 🚀 Quick Start
+
+```bash
 git clone https://github.com/your-username/microgrid-guardian.git
 cd microgrid-guardian
-Backend
+```
+
+### Backend
+
+```bash
 cd backend
 pip install -r requirements.txt
 python app.py
-Frontend
+```
+
+### Frontend
+
+```bash
 cd frontend
 npm install
 npm start
-📁 Project Structure
+```
+
+---
+
+## 📁 Project Structure
+
+```
 microgrid-guardian/
 │
 ├── backend/
@@ -138,40 +165,64 @@ microgrid-guardian/
 ├── notebooks/
 ├── images/
 └── README.md
-📊 Dashboard Features
-Real-time Power Monitoring
-Solar Yield Tracking
-System Health Status
-CO₂ Savings
-Smart Suggestions
-Fault Alerts
-🧠 Future Enhancements
-📱 Mobile App (React Native)
-📩 WhatsApp Alerts
-📊 Advanced Analytics
-🔋 Battery Prediction
-🌦️ LSTM Forecasting
-🎙️ Voice Assistant (Hindi)
-🔐 User Authentication
-🤝 Contributors
-Umang Raj – Full Stack + AI + IoT
-📜 License
+```
+
+---
+
+## 📊 Dashboard Features
+
+* Real-time Power Monitoring
+* Solar Yield Tracking
+* System Health Status
+* CO₂ Savings
+* Smart Suggestions
+* Fault Alerts
+
+---
+
+## 🧠 Future Enhancements
+
+* 📱 Mobile App (React Native)
+* 📩 WhatsApp Alerts
+* 📊 Advanced Analytics
+* 🔋 Battery Prediction
+* 🌦️ LSTM Forecasting
+* 🎙️ Voice Assistant (Hindi)
+* 🔐 User Authentication
+
+---
+
+## 🤝 Contributors
+
+* **Umang Raj** – Full Stack + AI + IoT
+
+---
+
+## 📜 License
 
 MIT License
 
-🙏 Acknowledgments
-Kaggle (datasets)
-OpenWeatherMap API
-Arduino Community
-Scikit-learn
-📧 Contact
+---
+
+## 🙏 Acknowledgments
+
+* Kaggle (datasets)
+* OpenWeatherMap API
+* Arduino Community
+* Scikit-learn
+
+---
+
+## 📧 Contact
 
 GitHub: https://github.com/your-username/microgrid-guardian
+
+---
 
 <div align="center">
 
 ⭐ Star this repo | 🐛 Report Bug | 💡 Request Feature
 
-Made with ❤️ for sustainable rural energy
+Made with ❤️ for sustainable rural energy ❤️
 
-</div> ```
+</div>
