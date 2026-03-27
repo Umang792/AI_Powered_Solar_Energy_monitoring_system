@@ -160,3 +160,20 @@ z_axis = random.uniform(-180, 180)
 │    - Peak hours (12PM-3PM → allow heavy appliances)            │
 │    - Predicted generation (low → conserve power)               │
 └─────────────────────────────────────────────────────────────────┘
+git clone https://github.com/your-username/microgrid-guardian.git
+cd microgrid-guardian
+
+
+# Upload code to ESP32 using Arduino IDE
+# Install required libraries:
+# - Adafruit INA219
+# - OneWire
+# - DallasTemperature
+# - DHT sensor library
+# - BH1750
+# - MPU6050
+# - WiFi
+# - HTTPClient
+
+# Configure WiFi credentials in the code
+# Set API endpoint to your Flask server IP
