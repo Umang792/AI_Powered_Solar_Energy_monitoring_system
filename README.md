@@ -4,14 +4,15 @@
   <h3>AI-Powered Renewable Energy Monitoring System for Smart Villages</h3>
   <p><i>Democratizing energy intelligence for off-grid communities</i></p>
 
-  ![Python](https://img.shields.io/badge/Python-3.9+-blue?logo=python)
-  ![Nodejs](https://img.shields.io/badge/Flask-2.0+-black?logo=flask)
-  ![Javascript](https://img.shields.io/badge/React-18.0+-61DAFB?logo=react)
-  ![HTML](https://img.shields.io/badge/Tailwind-3.0+-06B6D4?logo=tailwindcss)
-  ![Scikit Learn](https://img.shields.io/badge/Scikit--Learn-1.0+-F7931E?logo=scikit-learn)
-  ![ESP32](https://img.shields.io/badge/ESP32-Enabled-735DF0?logo=espressif)
-  ![CSS](https://img.shields.io/badge/MongoDB-4.4+-47A248?logo=mongodb)
-  ![ExpressJS](https://img.shields.io/badge/TypeScript-5.0+-3178C6?logo=typescript)
+  ![HTML](https://img.shields.io/badge/HTML-5-E34F26?logo=html5\&logoColor=white)
+![CSS](https://img.shields.io/badge/CSS-3-1572B6?logo=css3\&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-ES6-F7DF1E?logo=javascript\&logoColor=black)
+![Node.js](https://img.shields.io/badge/Node.js-18+-339933?logo=node.js\&logoColor=white)
+![Express.js](https://img.shields.io/badge/Express.js-Backend-000000?logo=express\&logoColor=white)
+![Python](https://img.shields.io/badge/Python-3.9+-3776AB?logo=python\&logoColor=white)
+![Embedded C++](https://img.shields.io/badge/Embedded%20C++-ESP32-00599C?logo=c%2B%2B\&logoColor=white)
+![ESP32](https://img.shields.io/badge/ESP32-Microcontroller-735DF0?logo=espressif\&logoColor=white)
+
 </div>
 
 ---
