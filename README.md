@@ -1,17 +1,17 @@
 <div align="center">
   <img src="https://img.icons8.com/fluency/96/solar-panel.png" alt="Solar Panel Icon" width="80"/>
-  <h1>🌱 MicroGrid Guardian</h1>
+  <h1>🌱 AI Powered Renewable Energy Monetoring System for Microgrid</h1>
   <h3>AI-Powered Renewable Energy Monitoring System for Smart Villages</h3>
   <p><i>Democratizing energy intelligence for off-grid communities</i></p>
 
   ![Python](https://img.shields.io/badge/Python-3.9+-blue?logo=python)
-  ![Flask](https://img.shields.io/badge/Flask-2.0+-black?logo=flask)
-  ![React](https://img.shields.io/badge/React-18.0+-61DAFB?logo=react)
-  ![Tailwind](https://img.shields.io/badge/Tailwind-3.0+-06B6D4?logo=tailwindcss)
+  ![Nodejs](https://img.shields.io/badge/Flask-2.0+-black?logo=flask)
+  ![Javascript](https://img.shields.io/badge/React-18.0+-61DAFB?logo=react)
+  ![HTML](https://img.shields.io/badge/Tailwind-3.0+-06B6D4?logo=tailwindcss)
   ![Scikit Learn](https://img.shields.io/badge/Scikit--Learn-1.0+-F7931E?logo=scikit-learn)
   ![ESP32](https://img.shields.io/badge/ESP32-Enabled-735DF0?logo=espressif)
-  ![MongoDB](https://img.shields.io/badge/MongoDB-4.4+-47A248?logo=mongodb)
-  ![TypeScript](https://img.shields.io/badge/TypeScript-5.0+-3178C6?logo=typescript)
+  ![CSS](https://img.shields.io/badge/MongoDB-4.4+-47A248?logo=mongodb)
+  ![ExpressJS](https://img.shields.io/badge/TypeScript-5.0+-3178C6?logo=typescript)
 </div>
 
 ---
