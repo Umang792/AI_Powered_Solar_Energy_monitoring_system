@@ -177,3 +177,140 @@ cd microgrid-guardian
 
 # Configure WiFi credentials in the code
 # Set API endpoint to your Flask server IP
+microgrid-guardian/
+│
+├── backend/
+│   ├── app.py                 # Flask main application
+│   ├── models/                # Saved trained models
+│   │   ├── random_forest.pkl
+│   │   ├── isolation_fault.pkl
+│   │   └── isolation_tilt.pkl
+│   ├── data/                  # Data handling
+│   │   ├── preprocess.py      # Data preprocessing
+│   │   ├── simulate.py        # Simulated sensor data
+│   │   └── weather_api.py     # Weather API integration
+│   ├── utils/                 # Utility functions
+│   │   ├── alerts.py          # Alert generation logic
+│   │   └── predictions.py     # Model inference
+│   ├── requirements.txt       # Python dependencies
+│   └── config.py              # Configuration file
+│
+├── frontend/
+│   ├── public/
+│   │   └── index.html
+│   ├── src/
+│   │   ├── components/
+│   │   │   ├── Dashboard.js   # Main dashboard
+│   │   │   ├── PowerCard.js   # Power metrics display
+│   │   │   ├── WeatherCard.js # Weather information
+│   │   │   ├── AlertsCard.js  # System alerts
+│   │   │   ├── Predictions.js # AI predictions
+│   │   │   └── DeviceUsage.js # Device tracking
+│   │   ├── hooks/
+│   │   │   └── useApiData.js  # API data fetching
+│   │   ├── App.js             # Main React component
+│   │   ├── index.js           # Entry point
+│   │   └── index.css          # Tailwind styles
+│   ├── package.json
+│   └── tailwind.config.js
+│
+├── hardware/
+│   ├── esp32_code/
+│   │   └── microgrid_monitor.ino  # ESP32 firmware
+│   ├── wiring_diagram.png          # Connection diagram
+│   └── sensor_test/                # Individual sensor tests
+│
+├── notebooks/
+│   ├── 01_data_exploration.ipynb
+│   ├── 02_model_training.ipynb
+│   └── 03_model_evaluation.ipynb
+│
+├── images/
+│   ├── Screenshot_2026-03-27_at_6.15.34_PM.png
+│   └── image.png
+│
+├── requirements.txt            # Overall requirements
+├── README.md                   # This file
+└── LICENSE
+LICENSE
+📊 Dashboard Features Explained
+Feature	Description
+Current Power	Real-time power output in kW
+Solar Yield	Total energy generated today (kWh)
+Panel Temperature	Current solar panel temperature (°C)
+System Health	Overall system status (Optimal/Warning/Critical)
+Instant Power	Current instantaneous power (kW)
+Energy Today	Cumulative energy generated today
+Efficiency	System efficiency percentage
+Irradiance	Solar irradiance (W/m²)
+CO₂ Saved	Carbon emissions offset (kg)
+Device Usage	Daily usage hours for fans, TV, water pump
+Smart Suggestion	AI-powered recommendations for appliance usage
+Critical Alert	Immediate attention notifications
+Tomorrow's Forecast	Predicted solar yield for next day
+Evening Battery	Projected battery level by end of day
+🧠 Future Enhancements
+📱 Mobile App: React Native app for wider accessibility
+
+📱 WhatsApp Alerts: Send critical fault notifications to villagers
+
+📈 Historical Analytics: Track monthly CO₂ savings and efficiency trends
+
+🔋 Battery Swap Scheduling: Predict when battery replacement is needed
+
+🌦️ Advanced Weather Forecast: LSTM models for better prediction accuracy
+
+🎙️ Voice Assistant: Hindi/regional language support for alerts
+
+📊 Community Dashboard: Compare multiple households in a village
+
+🔐 User Authentication: Secure access for different households
+
+📤 Data Export: CSV/PDF reports for system performance
+
+🤖 Auto-Calibration: Self-calibrating sensors for accuracy
+
+🤝 Contributing
+Contributions are welcome! Please follow these steps:
+
+Fork the repository
+
+Create a feature branch (git checkout -b feature/AmazingFeature)
+
+Commit changes (git commit -m 'Add AmazingFeature')
+
+Push to branch (git push origin feature/AmazingFeature)
+
+Open a Pull Request
+
+👥 Contributors
+Your Name – Hardware Integration, AI Models, Backend Development
+
+Open for contributions!
+
+📜 License
+This project is licensed under the MIT License – see the LICENSE file for details.
+
+🙏 Acknowledgments
+Kaggle for solar generation datasets
+
+OpenWeatherMap for weather API
+
+Arduino community for sensor libraries
+
+Scikit-learn for ML algorithms
+
+ESP32 community for IoT support
+
+📧 Contact
+Project Link: https://github.com/your-username/microgrid-guardian
+
+<div align="center"> Made with ❤️ for sustainable energy access in rural communities <br/> <br/>
+⭐ Star this repo |
+🐛 Report Bug |
+💡 Request Feature
+
+<br/> <br/>
+<sub>© 2024 MicroGrid Guardian | Empowering villages with AI-powered solar intelligence</sub>
+
+</div> ```
