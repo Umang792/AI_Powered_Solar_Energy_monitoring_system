@@ -127,3 +127,36 @@ temp_ambient = random.randint(20, 40)     # °C
 x_axis = random.uniform(-180, 180)        # Degrees
 y_axis = random.uniform(-180, 180)        
 z_axis = random.uniform(-180, 180)
+
+┌─────────────────────────────────────────────────────────────────┐
+│                         HARDWARE LAYER                          │
+│  Solar Panel → PWM Controller → Battery → ESP32 → Sensors      │
+│                              ↓                                  │
+│                    Serial Data Output                           │
+└─────────────────────────────────────────────────────────────────┘
+                              ↓
+┌─────────────────────────────────────────────────────────────────┐
+│                      BACKEND LAYER (Flask)                      │
+│  • Receive sensor data (or simulate)                           │
+│  • Load trained .pkl models                                     │
+│  • Random Forest → Power Prediction                            │
+│  • Isolation Forest → Anomaly Detection                        │
+│  • Rule-based logic → Smart Suggestions                        │
+│  • Weather API integration                                      │
+└─────────────────────────────────────────────────────────────────┘
+                              ↓
+┌─────────────────────────────────────────────────────────────────┐
+│                     FRONTEND LAYER (React)                      │
+│  • Real-time dashboard (updates every 2 seconds)               │
+│  • Visualize: Power, Weather, Alerts, Predictions              │
+│  • Display: CO₂ savings, efficiency, device usage              │
+│  • Critical alerts & smart suggestions                         │
+└─────────────────────────────────────────────────────────────────┘
+                              ↓
+┌─────────────────────────────────────────────────────────────────┐
+│                      ACTUATION LAYER                            │
+│  • 2-Channel Relay controls appliances based on:               │
+│    - Battery percentage (<30% → cut non-essential)             │
+│    - Peak hours (12PM-3PM → allow heavy appliances)            │
+│    - Predicted generation (low → conserve power)               │
+└─────────────────────────────────────────────────────────────────┘
