@@ -95,3 +95,35 @@ Bringing **Solar Intelligence** to rural households. This system combines IoT se
 | **Total** | | **~₹6,250** | |
 
 ### Connection Diagram
+
+---
+
+## 🤖 AI/ML Models
+
+We leverage two main models, trained on both **Kaggle solar data** and **simulated MPU sensor data**.
+
+| Model | Algorithm | Purpose | Features Used | Output |
+| :--- | :--- | :--- | :--- | :--- |
+| **Solar Power Predictor** | Random Forest Regressor | Predicts solar power output | irradiation, temp_module, temp_ambient | ac_power (W) |
+| **System Anomaly Detector** | Isolation Forest | Detects abnormal power drop or sensor spikes | irradiation, temp_module, ac_power, battery | Fault alert |
+| **Panel Health Monitor** | Isolation Forest | Analyzes panel tilt/vibration | x_axis, y_axis, z_axis rotation angles | Theft/storm alert |
+
+### Model Training Pipeline
+1. **Data Collection**: Kaggle solar dataset + simulated MPU data
+2. **Preprocessing**: Merge datasets, handle missing values, feature scaling
+3. **Training**: 
+   - Random Forest Regressor (n_estimators=100, max_depth=10)
+   - Isolation Forest (contamination=0.1, random_state=42)
+4. **Serialization**: Models saved as `.pkl` files for Flask API
+5. **Inference**: Real-time predictions with simulated sensor data
+
+### Simulated Sensor Values (for testing)
+```python
+ac_power = random.randint(200, 1500)      # Watts
+battery = random.randint(50, 90)          # Percentage
+irradiation = random.randint(200, 1000)   # W/m²
+temp_module = random.randint(25, 65)      # °C
+temp_ambient = random.randint(20, 40)     # °C
+x_axis = random.uniform(-180, 180)        # Degrees
+y_axis = random.uniform(-180, 180)        
+z_axis = random.uniform(-180, 180)
