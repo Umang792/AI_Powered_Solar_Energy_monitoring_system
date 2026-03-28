@@ -1,7 +1,7 @@
 <img width="1490" height="438" alt="image" src="https://github.com/user-attachments/assets/f11a5a6d-0db0-4b62-8c9d-4839c459615d" />
 
 <div align="center">
-  <img src="https://img.icons8.com/fluency/96/solar-panel.png" alt="Solar Panel Icon" width="80"/>
+ 
   <h1>🌱 AI Powered Renewable Energy Monetoring System for Microgrid</h1>
   <h3>AI-Powered Renewable Energy Monitoring System for Smart Villages</h3>
   <p><i>Democratizing energy intelligence for off-grid communities</i></p>
