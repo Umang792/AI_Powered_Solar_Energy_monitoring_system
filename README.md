@@ -115,9 +115,9 @@ Explore the complete working of the **AI Powered Renewable Energy Monitoring Sys
 </p>
 
 ---
+### ⚙️ Real Device Setup
+> Actual hardware implementation of the system with sensors and microcontroller in real environment.
 
-### 🏠 Home Page
-> Main dashboard of the system showing overview of energy monitoring, system status, and navigation.
 
 <p align="center">
   <img src="https://github.com/user-attachments/assets/1a5cacc0-8d83-4bb0-866b-5f53307541de" width="90%" />
@@ -125,8 +125,8 @@ Explore the complete working of the **AI Powered Renewable Energy Monitoring Sys
 
 ---
 
-### ⚙️ Real Device Setup
-> Actual hardware implementation of the system with sensors and microcontroller in real environment.
+### 🏠 Home Page
+> Main dashboard of the system showing overview of energy monitoring, system status, and navigation.
 
 <p align="center">
   <img src="https://github.com/user-attachments/assets/19e4bc8b-1caf-45cf-8386-f02875bb2a80" width="90%" />
