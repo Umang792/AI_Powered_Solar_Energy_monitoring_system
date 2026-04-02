@@ -118,22 +118,25 @@ Circuit diagram showing connections between ESP32, sensors (INA219, DHT22, BH175
 </td>
 </tr>
 </table>
-### ⚙️ Real Device Setup
-> Actual hardware implementation of the system with sensors and microcontroller in real environment.
+---
 
+### 📊 Real-Time Data Monitoring
+> Live visualization of sensor data including voltage, current, power consumption, temperature, humidity, and light intensity.
 
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/1a5cacc0-8d83-4bb0-866b-5f53307541de" width="70%" />
+  <img src="https://github.com/user-attachments/assets/e392965d-6fa8-4a19-98c0-1291ef762e80" width="70%" />
 </p>
 
 ---
 
-### 🏠 Home Page
-> Main dashboard of the system showing overview of energy monitoring, system status, and navigation.
+### 🔌 Hardware Connections
+> Detailed circuit diagram illustrating connections between ESP32, INA219 current sensor, DHT22, BH1750, and other components.
 
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/19e4bc8b-1caf-45cf-8386-f02875bb2a80" width="70%" />
+  <img src="https://github.com/user-attachments/assets/619134bc-b400-4298-88a8-80f3ebe18b58" width="70%" />
 </p>
+
+
 
 ---
 
