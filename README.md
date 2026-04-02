@@ -1,98 +1,232 @@
+ <img width="1490" height="438" alt="image" src="https://github.com/user-attachments/assets/f11a5a6d-0db0-4b62-8c9d-4839c459615d" />
+
 <div align="center">
+ 
+  <h1>🌱 AI Powered Renewable Energy Monetoring System for Microgrid</h1>
+  <h3>AI-Powered Renewable Energy Monitoring System for Smart Villages</h3>
+  <p><i>Democratizing energy intelligence for off-grid communities</i></p>
 
-# 🌱 AI-Powered Renewable Energy Monitoring System  
-### Smart Microgrid Solution for Rural Areas ⚡  
-
-<i>Making Solar Energy Intelligent, Efficient & Accessible</i>
-
-<br>
-
-![HTML](https://img.shields.io/badge/HTML-5-E34F26?logo=html5&logoColor=white)
-![CSS](https://img.shields.io/badge/CSS-3-1572B6?logo=css3&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-ES6-F7DF1E?logo=javascript&logoColor=black)
-![Node.js](https://img.shields.io/badge/Node.js-Backend-339933?logo=node.js&logoColor=white)
-![Python](https://img.shields.io/badge/Python-AI-3776AB?logo=python&logoColor=white)
-![ESP32](https://img.shields.io/badge/ESP32-IoT-735DF0?logo=espressif&logoColor=white)
+  ![HTML](https://img.shields.io/badge/HTML-5-E34F26?logo=html5\&logoColor=white)
+![CSS](https://img.shields.io/badge/CSS-3-1572B6?logo=css3\&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-ES6-F7DF1E?logo=javascript\&logoColor=black)
+![Node.js](https://img.shields.io/badge/Node.js-18+-339933?logo=node.js\&logoColor=white)
+![Express.js](https://img.shields.io/badge/Express.js-Backend-000000?logo=express\&logoColor=white)
+![Python](https://img.shields.io/badge/Python-3.9+-3776AB?logo=python\&logoColor=white)
+![Embedded C++](https://img.shields.io/badge/Embedded%20C++-ESP32-00599C?logo=c%2B%2B\&logoColor=white)
+![ESP32](https://img.shields.io/badge/ESP32-Microcontroller-735DF0?logo=espressif\&logoColor=white)
 
 </div>
 
 ---
 
-## 🚀 Overview
-
-This project is an **AI + IoT based Renewable Energy Monitoring System** designed for smart villages and microgrids.
-
-It monitors solar energy in real-time, detects faults, predicts power generation, and optimizes energy usage through an interactive dashboard.
+## 📋 Table of Contents
+- [Project Vision](#-project-vision)
+- [Key Features](#-key-features)
+- [Hardware Bill of Materials](#-hardware-bill-of-materials)
+- [AI/ML Models](#-aiml-models)
+- [System Workflow](#-system-workflow)
+- [Quick Start](#-quick-start)
+- [Project Structure](#-project-structure)
+- [Future Enhancements](#-future-enhancements)
+- [Contributors](#-contributors)
+- [License](#-license)
 
 ---
 
-## 📸 Screenshots
+## 🏞️ Project Vision
 
-### 🏠 Home Dashboard
-<img src="images/home.png" width="100%" />
-
-### 📊 Real-Time Data Page
-<img src="images/realtime.png" width="100%" />
-
-### 🔌 Hardware Connection Diagram
-<img src="images/connection.png" width="100%" />
-
-### 🛠️ Real Hardware Setup
-<img src="images/hardware.png" width="100%" />
-
-> ⚠️ Upload your images inside `images/` folder with same names.
+Bringing **Solar Intelligence** to rural households. This system combines IoT sensors, edge computing, and cloud-based AI to monitor solar microgrids, predict generation, detect faults, and optimize power distribution—all through an intuitive dashboard.
 
 ---
 
 ## ✨ Key Features
 
-### ⚡ Real-Time Monitoring
-- Voltage, Current, Power
-- Temperature & Humidity
-- Light Intensity (Solar Efficiency)
-- Battery Status
+### 🔹 Real-Time Monitoring
+- Power (kW), Solar Yield (kWh)
+- Panel Temperature
+- Humidity, Irradiance (W/m²)
+- Live Weather API integration
 
-### 🤖 AI Intelligence
-- Power Prediction Model  
-- Fault Detection System  
-- Smart Alerts  
+### 🔹 AI Intelligence
+- **Random Forest** → Power Prediction  
+- **Isolation Forest** → Fault Detection  
+- Detects:
+  - Sensor faults  
+  - Dust/shading issues  
+  - Theft/tilt (MPU6050)
 
-### 🔋 Smart Energy Control
-- Automatic Load Management  
-- Efficient Power Distribution  
-- Peak Time Optimization  
+### 🔹 Smart Load Management
+- Automatic relay control
+- Priority-based appliance usage
+- Peak hour optimization (12PM–3PM)
 
-### 📊 Dashboard Analytics
-- Live Graphs  
-- System Health Monitoring  
-- Efficiency Tracking  
+### 🔹 Weather Integration
+- Real-time weather data
+- Solar impact prediction
+- Dynamic adjustment of output
 
----
-
-## 🛠️ Hardware Components
-
-- ESP32 (Main Controller)  
-- INA219 (Current Sensor)  
-- DS18B20 (Temperature Sensor)  
-- DHT22 (Humidity Sensor)  
-- BH1750 (Light Sensor)  
-- MPU6050 (Tilt Detection)  
-- Relay Module (Load Control)  
-- Solar Panel + Battery  
+### 🔹 Energy Analytics
+- CO₂ savings
+- Efficiency tracking
+- Historical + future predictions
 
 ---
 
-## 🧠 AI Models
+## 🛠️ Hardware Bill of Materials
 
-- 🔹 Power Prediction Model  
-- 🔹 Fault Detection Model  
+| Component | Qty | Cost (₹) | Purpose |
+|----------|----|---------|--------|
+| ESP32 | 1 | 500 | Controller |
+| INA219 | 1 | 700 | Current sensor |
+| DS18B20 | 1 | 200 | Temperature |
+| DHT22 | 1 | 350 | Humidity |
+| BH1750 | 1 | 250 | Light sensor |
+| MPU6050 | 1 | 250 | Tilt detection |
+| Solar Panel | 1 | 800 | Energy source |
+| Battery | 1 | 2200 | Storage |
+| Relay Module | 1 | 300 | Load control |
 
-Detects:
-- Overload  
-- Sensor Fault  
-- Low Efficiency / Dust  
-- Theft / Panel Tilt  
+**Total ≈ ₹6,250**
+
+---
+
+## 🤖 AI/ML Models
+
+| Model | Algorithm | Purpose |
+|------|----------|--------|
+| Power Predictor | Random Forest | Predict solar output |
+| Fault Detector | Isolation Forest | Detect anomalies |
+| Tilt Monitor | Isolation Forest | Detect theft/misalignment |
+
+### 🧪 Sample Input (Simulation)
+
+```python
+ac_power = random.randint(200, 1500)
+battery = random.randint(50, 90)
+irradiation = random.randint(200, 1000)
+temp_module = random.randint(25, 65)
+temp_ambient = random.randint(20, 40)
+x_axis = random.uniform(-180, 180)
+y_axis = random.uniform(-180, 180)
+z_axis = random.uniform(-180, 180)
+```
 
 ---
 
 ## ⚙️ System Workflow
+
+```
+HARDWARE → ESP32 → Flask API → ML Models → React Dashboard → Relay Control
+```
+
+---
+
+## 🚀 Quick Start
+
+```bash
+git clone https://github.com/your-username/microgrid-guardian.git
+cd microgrid-guardian
+```
+
+### Backend
+
+```bash
+cd backend
+pip install -r requirements.txt
+python app.py
+```
+
+### Frontend
+
+```bash
+cd frontend
+npm install
+npm start
+```
+
+---
+
+## 📁 Project Structure
+
+```
+microgrid-guardian/
+│
+├── backend/
+│   ├── app.py
+│   ├── models/
+│   ├── data/
+│   ├── utils/
+│   └── requirements.txt
+│
+├── frontend/
+│   ├── src/
+│   └── public/
+│
+├── hardware/
+│   └── esp32_code/
+│
+├── notebooks/
+├── images/
+└── README.md
+```
+
+---
+
+## 📊 Dashboard Features
+
+* Real-time Power Monitoring
+* Solar Yield Tracking
+* System Health Status
+* CO₂ Savings
+* Smart Suggestions
+* Fault Alerts
+
+---
+
+## 🧠 Future Enhancements
+
+* 📱 Mobile App (React Native)
+* 📩 WhatsApp Alerts
+* 📊 Advanced Analytics
+* 🔋 Battery Prediction
+* 🌦️ LSTM Forecasting
+* 🎙️ Voice Assistant (Hindi)
+* 🔐 User Authentication
+
+---
+
+## 🤝 Contributors
+
+* **Umang Raj** – Full Stack + AI + IoT
+
+---
+
+## 📜 License
+
+MIT License
+
+---
+
+## 🙏 Acknowledgments
+
+* Real dataset
+* OpenWeather API
+* Arduino IDE
+* Scikit-learn
+* ESP32
+
+---
+
+## 📧 Contact
+
+GitHub: https://github.com/your-username/microgrid-guardian
+
+---
+
+<div align="center">
+
+⭐ Star this repo | 🐛 Report Bug | 💡 Request Feature
+
+Made with ❤️ for sustainable rural energy ❤️
+
+</div>
