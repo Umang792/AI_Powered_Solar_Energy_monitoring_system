@@ -91,34 +91,27 @@ Bringing **Solar Intelligence** to rural households. This system combines IoT se
 
 
 
-## 📸 Project Screenshots
-
-Explore the complete working of the **AI Powered Renewable Energy Monitoring System** through real visuals 👇
-
-## 📊 System Preview
-
 <table>
 <tr>
 <td align="center" width="50%">
 
-### 📊 Real-Time Data Monitoring  
-Live sensor data visualization including voltage, current, power, temperature, humidity, and light intensity.
+### ⚙️ Real Device Setup  
+Actual hardware implementation of the system with sensors and microcontroller in real environment.
 
-<img src="https://github.com/user-attachments/assets/619134bc-b400-4298-88a8-80f3ebe18b58" width="100%" />
+<img src="https://github.com/user-attachments/assets/1a5cacc0-8d83-4bb0-866b-5f53307541de" width="100%" />
 
 </td>
 
 <td align="center" width="50%">
 
-### 🔌 Hardware Connections  
-Circuit diagram showing connections between ESP32, sensors (INA219, DHT22, BH1750, etc.).
+### 🏠 Home Page  
+Main dashboard of the system showing overview of energy monitoring, system status, and navigation.
 
-<img src="https://github.com/user-attachments/assets/e392965d-6fa8-4a19-98c0-1291ef762e80" width="100%" />
+<img src="https://github.com/user-attachments/assets/19e4bc8b-1caf-45cf-8386-f02875bb2a80" width="100%" />
 
 </td>
 </tr>
 </table>
----
 
 
 
