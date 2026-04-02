@@ -93,10 +93,12 @@ Bringing **Solar Intelligence** to rural households. This system combines IoT se
 
 ## 📸 System Preview
 
-| ⚙️ Real Device Setup | 🏠 Home Page |
-|---------------------|-------------|
-| <p align="center"><img src="https://github.com/user-attachments/assets/1a5cacc0-8d83-4bb0-866b-5f53307541de" width="100%"/></p> | <p align="center"><img src="https://github.com/user-attachments/assets/19e4bc8b-1caf-45cf-8386-f02875bb2a80" width="100%"/></p> |
-| *Actual hardware implementation of the system with sensors and microcontroller in real environment.* | *Main dashboard showing overview of energy monitoring, system status, and navigation.* |
+## 📸 System Preview
+
+| 🏠 Home Page | ⚙️ Real Device Setup |
+|-------------|---------------------|
+| <p align="center"><img src="https://github.com/user-attachments/assets/19e4bc8b-1caf-45cf-8386-f02875bb2a80" width="100%"/></p> | <p align="center"><img src="https://github.com/user-attachments/assets/1a5cacc0-8d83-4bb0-866b-5f53307541de" width="100%"/></p> |
+| *Main dashboard showing overview of energy monitoring, system status, and navigation.* | *Actual hardware implementation of the system with sensors and microcontroller in real environment.* |
 
 
 
