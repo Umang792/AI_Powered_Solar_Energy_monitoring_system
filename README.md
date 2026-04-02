@@ -113,7 +113,7 @@ Live sensor data visualization including voltage, current, power, temperature, h
 ### 🔌 Hardware Connections  
 Circuit diagram showing connections between ESP32, sensors (INA219, DHT22, BH1750, etc.).
 
-<img src="https://github.com/user-attachments/assets/e392965d-6fa8-4a19-98c0-1291ef762e80" width="100%" />
+<img src="https://github.com/user-attachments/assets/e392965d-6fa8-4a19-98c0-1291ef762e80" width="90%" />
 
 </td>
 </tr>
@@ -123,7 +123,7 @@ Circuit diagram showing connections between ESP32, sensors (INA219, DHT22, BH175
 
 
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/1a5cacc0-8d83-4bb0-866b-5f53307541de" width="90%" />
+  <img src="https://github.com/user-attachments/assets/1a5cacc0-8d83-4bb0-866b-5f53307541de" width="70%" />
 </p>
 
 ---
