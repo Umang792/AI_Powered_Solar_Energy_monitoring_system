@@ -219,7 +219,7 @@ microgrid-guardian/
 
 * **Umang Raj** – Frontend  + IoT
 * **Chaitanya Tyagi** – Backend + AI
-* **Shruti shukla**
+* **Shruti Shukla** - Research & System Design
 
 ---
 
