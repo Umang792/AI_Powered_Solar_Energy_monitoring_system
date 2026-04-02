@@ -95,26 +95,29 @@ Bringing **Solar Intelligence** to rural households. This system combines IoT se
 
 Explore the complete working of the **AI Powered Renewable Energy Monitoring System** through real visuals 👇
 
----
-### 📊 Real-Time Data Monitoring
-> Live sensor data visualization including voltage, current, power, temperature, humidity, and light intensity.
+## 📊 System Preview
 
+<table>
+<tr>
+<td align="center" width="50%">
 
-<p align="center">
-  <img src="https://github.com/user-attachments/assets/619134bc-b400-4298-88a8-80f3ebe18b58" width="70%" />
-</p>
+### 📊 Real-Time Data Monitoring  
+Live sensor data visualization including voltage, current, power, temperature, humidity, and light intensity.
 
----
+<img src="https://github.com/user-attachments/assets/619134bc-b400-4298-88a8-80f3ebe18b58" width="100%" />
 
+</td>
 
-### 🔌 Hardware Connections
-> Circuit diagram showing connections between ESP32, sensors (INA219, DHT22, BH1750, etc.), and other components.
+<td align="center" width="50%">
 
-<p align="center">
-  <img src="https://github.com/user-attachments/assets/e392965d-6fa8-4a19-98c0-1291ef762e80" width="70%" />
-</p>
+### 🔌 Hardware Connections  
+Circuit diagram showing connections between ESP32, sensors (INA219, DHT22, BH1750, etc.).
 
----
+<img src="https://github.com/user-attachments/assets/e392965d-6fa8-4a19-98c0-1291ef762e80" width="100%" />
+
+</td>
+</tr>
+</table>
 ### ⚙️ Real Device Setup
 > Actual hardware implementation of the system with sensors and microcontroller in real environment.
 
@@ -244,7 +247,9 @@ microgrid-guardian/
 
 ## 🤝 Contributors
 
-* **Umang Raj** – Full Stack + AI + IoT
+* **Umang Raj** – Frontend  + IoT
+* **Chaitanya Tyagi** – Backend + AI
+* **Shruti shukla**
 
 ---
 
