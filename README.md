@@ -1,4 +1,4 @@
- <img width="1190" height="238" alt="image" src="https://github.com/user-attachments/assets/f11a5a6d-0db0-4b62-8c9d-4839c459615d" />
+ <img width="1230" height="298" alt="image" src="https://github.com/user-attachments/assets/f11a5a6d-0db0-4b62-8c9d-4839c459615d" />
  
 
   <h1>🌱 AI Powered Renewable Energy Monetoring System for Microgrid</h1>
@@ -108,7 +108,7 @@ Bringing **Solar Intelligence** to rural households. This system combines IoT se
 
 | 📊 Real-Time Data Monitoring | 🔌 Hardware Connections |
 |----------------------------|------------------------|
-| <p align="center"><img src="https://github.com/user-attachments/assets/619134bc-b400-4298-88a8-80f3ebe18b58" width="100%"/></p> | <p align="center"><img src="https://github.com/user-attachments/assets/e392965d-6fa8-4a19-98c0-1291ef762e80" width="100%"/></p> |
+| <p align="center"><img src="https://github.com/user-attachments/assets/619134bc-b400-4298-88a8-80f3ebe18b58" width="90%"/></p> | <p align="center"><img src="https://github.com/user-attachments/assets/e392965d-6fa8-4a19-98c0-1291ef762e80" width="90%"/></p> |
 | *Live sensor data visualization including voltage, current, power, temperature, humidity, and light intensity.* | *Circuit diagram showing connections between ESP32, sensors (INA219, DHT22, BH1750, etc.).* |
 ## 🤖 AI/ML Models
 
