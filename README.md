@@ -2,12 +2,13 @@
  <img width="1290" height="438" alt="image" src="https://github.com/user-attachments/assets/619134bc-b400-4298-88a8-80f3ebe18b58" />
  <img width="1290" height="438" alt="image" src="https://github.com/user-attachments/assets/e392965d-6fa8-4a19-98c0-1291ef762e80" />
   <img width="1290" height="438" alt="image" src="https://github.com/user-attachments/assets/1a5cacc0-8d83-4bb0-866b-5f53307541de" />
+  <img width="1290" height="438" alt="image" src="https://github.com/user-attachments/assets/19e4bc8b-1caf-45cf-8386-f02875bb2a80" />
 
 
 
 
 
- ![ezgif com-animated-gif-maker (1)](https://github.com/user-attachments/assets/1a5cacc0-8d83-4bb0-866b-5f53307541de)
+
 
   <h1>🌱 AI Powered Renewable Energy Monetoring System for Microgrid</h1>
   <h3>AI-Powered Renewable Energy Monitoring System for Smart Villages</h3>
