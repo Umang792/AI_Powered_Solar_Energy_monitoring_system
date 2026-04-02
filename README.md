@@ -1,4 +1,4 @@
- <img width="1490" height="438" alt="image" src="https://github.com/user-attachments/assets/f11a5a6d-0db0-4b62-8c9d-4839c459615d" />
+ <img width="1290" height="338" alt="image" src="https://github.com/user-attachments/assets/f11a5a6d-0db0-4b62-8c9d-4839c459615d" />
  
 
   <h1>🌱 AI Powered Renewable Energy Monetoring System for Microgrid</h1>
@@ -132,7 +132,7 @@ Circuit diagram showing connections between ESP32, sensors (INA219, DHT22, BH175
 > Main dashboard of the system showing overview of energy monitoring, system status, and navigation.
 
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/19e4bc8b-1caf-45cf-8386-f02875bb2a80" width="90%" />
+  <img src="https://github.com/user-attachments/assets/19e4bc8b-1caf-45cf-8386-f02875bb2a80" width="50%" />
 </p>
 
 ---
